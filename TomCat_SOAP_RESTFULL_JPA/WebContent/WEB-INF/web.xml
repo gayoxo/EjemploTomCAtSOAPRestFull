@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>fdi.ucm.proyect.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/tomcat_soap_restfull_jpa/greet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>TomCat_SOAP_RESTFULL_JPA.html</welcome-file>
+  </welcome-file-list>
+
+  
+</web-app>

@@ -1,0 +1,2 @@
+serviceClass: fdi.ucm.proyect.client.GreetingService
+path: A6978FAAE9E6D83E5EBFCA2EAF850D56.gwt.rpc

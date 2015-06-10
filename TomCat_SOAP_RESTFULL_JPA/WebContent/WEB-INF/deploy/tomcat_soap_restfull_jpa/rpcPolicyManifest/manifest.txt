@@ -1,0 +1,3 @@
+# Module tomcat_soap_restfull_jpa
+# RPC service class, partial path of RPC policy file
+fdi.ucm.proyect.client.GreetingService, A6978FAAE9E6D83E5EBFCA2EAF850D56.gwt.rpc
